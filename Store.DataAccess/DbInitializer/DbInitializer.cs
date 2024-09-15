@@ -20,7 +20,7 @@ namespace Store.DataAccess.DbInitializer
         private readonly ApplicationDbContext db;
         public DbInitializer(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, ApplicationDbContext db, IConfiguration configuration)
         {
-            this.configuration = configuration.GetRequiredSection("DbInitializer");
+            this.configuration = configuration.GetSection("DbInitializer");
             this.userManager = userManager;
             this.roleManager = roleManager;
             this.db = db;

@@ -12,7 +12,7 @@ using Store.DataAccess.DbInitializer;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews().AddJsonOptions(x =>
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 builder.Services.AddRazorPages();
 
@@ -44,15 +44,15 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 var gitHubOptions = builder.Configuration.GetSection("Authentication:GitHub").Get<ExternalAuthenticationSettings>();
 var googleOptions = builder.Configuration.GetSection("Authentication:Google").Get<ExternalAuthenticationSettings>();
-builder.Services.AddAuthentication().AddGoogle(options =>
-{
-    options.ClientId = googleOptions.ClientId;
-    options.ClientSecret = googleOptions.ClientSecret;
-}).AddGitHub(options =>
-{
-    options.ClientId = gitHubOptions.ClientId;
-    options.ClientSecret = gitHubOptions.ClientSecret;
-});
+//builder.Services.AddAuthentication().AddGoogle(options =>
+//{
+//    options.ClientId = googleOptions.ClientId;
+//    options.ClientSecret = googleOptions.ClientSecret;
+//}).AddGitHub(options =>
+//{
+//    options.ClientId = gitHubOptions.ClientId;
+//    options.ClientSecret = gitHubOptions.ClientSecret;
+//});
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>

@@ -67,7 +67,7 @@ namespace Store.DataAccess.Data
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "SWD9999001",
                     CategoryID = 1,
-                    ImageURL = "",
+                    ImageURL = "https://loremflickr.com/200/200?random=1",
                 },
                 new Product
                 {
@@ -77,7 +77,7 @@ namespace Store.DataAccess.Data
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "CAW777777701",
                     CategoryID = 2,
-                    ImageURL = "",
+                    ImageURL = "https://loremflickr.com/200/200?random=1",
                 },
                 new Product
                 {
@@ -87,7 +87,7 @@ namespace Store.DataAccess.Data
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "RITO5555501",
                     CategoryID = 3,
-                    ImageURL = "",
+                    ImageURL = "https://loremflickr.com/200/200?random=1",
                 },
                 new Product
                 {
@@ -97,7 +97,7 @@ namespace Store.DataAccess.Data
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "WS3333333301",
                     CategoryID = 2,
-                    ImageURL = "",
+                    ImageURL = "https://loremflickr.com/200/200?random=1",
                 },
                 new Product
                 {
@@ -107,7 +107,7 @@ namespace Store.DataAccess.Data
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "SOTJ1111111101",
                     CategoryID = 3,
-                    ImageURL = "",
+                    ImageURL = "https://loremflickr.com/200/200?random=1",
                 },
                 new Product
                 {
@@ -117,7 +117,7 @@ namespace Store.DataAccess.Data
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "FOT000000001",
                     CategoryID = 1,
-                    ImageURL = "",
+                    ImageURL = "https://loremflickr.com/200/200?random=1",
                 }
             );
 

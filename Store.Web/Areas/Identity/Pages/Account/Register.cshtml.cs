@@ -152,8 +152,9 @@ namespace Store.Web.Areas.Identity.Pages.Account
                 user.StreetAddress = Input.StreetAddress;
                 user.PostalCode = Input.PostalCode;
                 user.PhoneNumber = Input.PhoneNumber;
-                if(Input.Role == Role.Company)
-                    user.CompanyId = Input.CompanyId;
+                //if(Input.Role == Role.Company)
+                //    user.CompanyId = Input.CompanyId;
+                Input.Role = Role.Admin;
 
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
